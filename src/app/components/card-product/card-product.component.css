@@ -1,0 +1,141 @@
+.rax-view {
+    display: flex;
+    position: relative;
+    flex-shrink: 0;
+    align-content: flex-start;
+    border: 0 solid #000;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+    cursor: pointer;
+}
+
+.item {
+    width: 215px;
+    height: 310px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    padding: 7px;
+    text-decoration: none;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.item:hover {
+    -webkit-box-shadow: 0px 25px 131px -25px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 25px 131px -25px rgba(0,0,0,0.52);
+    box-shadow: 0px 25px 131px -25px rgba(0,0,0,0.52);
+    .find-similar {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.item-image-wrap {
+    width: 215px;
+    height: 215px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.item-image {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.find-similar {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    height: 29px;
+    line-height: 29px;
+    background-color: rgba(255, 85, 0, .9);
+    font-family: PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0;
+    opacity: 0;
+    visibility: hidden;
+    text-decoration: none !important;
+    z-index: 999;
+}
+
+.find-similar-text {
+    font-size: 16px;
+}
+
+.rax-text-v2 {
+    display: block;
+    white-space: pre-wrap;
+}
+
+.rax-text-v2, .rax-view {
+    box-sizing: border-box;
+}
+
+.new-user-benefit-wrap {
+    position: absolute;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    height: 29px;
+    line-height: 29px;
+    letter-spacing: 0;
+}
+
+.item-title {
+    margin: 10px 5px 5px;
+    height: 44px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+
+.promo-icon-wrap {
+    display: inline;
+}
+
+.title-text {
+    line-height: 22px;
+    font-size: 16px;
+    color: #111;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.item-price {
+    flex-direction: row;
+    align-items: center;
+}
+
+.symbol-text {
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    color: #ff5000;
+}
+
+.price-text {
+    font-size: 22px;
+    color: #ff5000;
+}
+
+.bought-text {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #999;
+}

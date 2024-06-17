@@ -1,0 +1,19 @@
+.list {
+    padding: 0 18px;
+    width: 1190px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rax-view {
+    display: flex;
+    position: relative;
+    flex-shrink: 0;
+    align-content: flex-start;
+    border: 0 solid #000;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+    cursor: pointer;
+}
