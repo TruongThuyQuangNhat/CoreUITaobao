@@ -17,3 +17,7 @@
     min-width: 0;
     cursor: pointer;
 }
+
+app-button {
+    margin-right: 12px;
+}

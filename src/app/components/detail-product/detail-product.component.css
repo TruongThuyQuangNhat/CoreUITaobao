@@ -93,7 +93,6 @@ img {
     color: #000;
     letter-spacing: 0;
     font-size: 20px;
-    font-family: PingFang SC;
     font-weight: 900;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -105,7 +104,6 @@ img {
 .item-header-subtitle {
     margin-top: 8px;
     height: 14px;
-    font-family: PingFang SC;
     font-size: 14px;
     color: rgba(0, 0, 0, .4);
     line-height: 14px;
@@ -134,7 +132,6 @@ img {
 
 .price-oversea-price-text {
     height: 19px;
-    font-family: PingFangSC;
     font-weight: 400;
     font-size: 15px;
     color: #666;
@@ -167,7 +164,6 @@ img {
 
 .skuCateText {
     height: 14px;
-    font-family: PingFangSC-Regular;
     font-size: 14px;
     color: #7f7f7f;
     line-height: 18px;
@@ -234,7 +230,6 @@ img {
 .countText {
     display: inline-block;
     height: 14px;
-    font-family: PingFangSC-Regular;
     font-size: 14px;
     color: #7f7f7f;
     width: 75px;
@@ -309,7 +304,6 @@ img {
 
 .actions-btn {
     outline: 0;
-    font-family: PingFang SC;
     border: 0;
     cursor: pointer;
     height: 48px;
@@ -379,7 +373,6 @@ img {
     width: auto;
     border: none;
     outline: 0;
-    font-family: PingFang SC;
     cursor: pointer;
     line-height: 22px;
     text-align: center;
@@ -391,7 +384,6 @@ img {
     line-height: 30px;
     margin-right: 3px;
     vertical-align: top;
-    font-family: taobao !important;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: .2px;
